@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mccpvptiertagger",
+  "version": "${version}",
+  "name": "MC Cpvp TL Tier Tagger",
+  "description": "Shows a player's Crystal PvP tier (from the MC Cpvp TL tier list) above their nametag.",
+  "authors": [
+    "MC Cpvp TL"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mccpvptl.tiertagger.MCCpvpTierTaggerClient"
+    ]
+  },
+  "mixins": [
+    "mccpvptiertagger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
