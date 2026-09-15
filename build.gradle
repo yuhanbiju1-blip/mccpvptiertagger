@@ -14,13 +14,10 @@ repositories {
 	mavenCentral()
 }
 
-   loom {
-   	splitEnvironmentSourceSets()
-
+      loom {
    	mods {
    		"mccpvptiertagger" {
    			sourceSet sourceSets.main
-   			sourceSet sourceSets.client
    		}
    	}
    }
