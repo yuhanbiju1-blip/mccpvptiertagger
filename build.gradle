@@ -14,16 +14,16 @@ repositories {
 	mavenCentral()
 }
 
-loom {
-	splitEnvironmentSourceSets()
+   loom {
+   	splitEnvironmentSourceSets()
 
-	mods {
-		"mccpvptiertagger" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-}
+   	mods {
+   		"mccpvptiertagger" {
+   			sourceSet sourceSets.main
+   			sourceSet sourceSets.client
+   		}
+   	}
+   }
 
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
